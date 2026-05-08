@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>El Enfermero Hugo | Educación sanitaria basada en evidencia</title>
+  <meta name="description" content="Web divulgativa sobre enfermería, salud pública y educación sanitaria. Artículos, apps, guías y recursos creados por El Enfermero Hugo." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="El Enfermero Hugo" />
+  <meta property="og:description" content="Divulgación enfermera, educación sanitaria y salud pública basada en evidencia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img-avatar-placeholder.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<a class="skip-link" href="#home">Saltar al contenido</a>
+
+<header class="header">
+  <nav class="nav" aria-label="Menú principal">
+    <span class="logo">El Enfermero Hugo</span>
+    <ul>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#blog">Artículos</a></li>
+      <li><a href="#apps">Apps</a></li>
+      <li><a href="#guides">Guías</a></li>
+      <li><a href="#store">Tienda</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="assets/img-avatar-placeholder.png" alt="Ilustración de El Enfermero Hugo" />
+    <h1>Enfermería, salud pública y educación sanitaria</h1>
+    <p>Divulgación clara, humana y basada en evidencia científica.</p>
+
+    <div class="cta-group">
+      <a class="btn" href="#blog">Leer artículos</a>
+      <a class="btn secondary" href="#apps">Ver apps</a>
+      <a class="btn secondary" href="#guides">Guías y protocolos</a>
+    </div>
+
+    <div class="trust-box">
+      <strong>Contenido educativo basado en evidencia.</strong>
+      <p>No sustituye la consulta con profesionales sanitarios.</p>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy enfermero y divulgador. Creo en una educación sanitaria clara,
+      honesta y útil para la vida real, especialmente en prevención y salud pública.
+    </p>
+
+    <ul class="values">
+      <li>Claridad</li>
+      <li>Rigor científico</li>
+      <li>Empatía</li>
+      <li>Práctica clínica</li>
+      <li>Prevención</li>
+    </ul>
+
+    <a href="#contact" class="btn">Colabora conmigo</a>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <h2>Reflexiones y artículos</h2>
+
+    <div class="filters">
+      <button data-category="all">Todos</button>
+      <button data-category="Enfermería">Enfermería</button>
+      <button data-category="Salud pública">Salud pública</button>
+      <button data-category="Educación sanitaria">Educación sanitaria</button>
+      <button data-category="Prevención">Prevención</button>
+      <button data-category="Tecnología/IA">Tecnología/IA</button>
+    </div>
+
+    <div id="posts" class="grid"></div>
+  </section>
+
+  <!-- APPS -->
+  <section id="apps">
+    <h2>Apps</h2>
+
+    <article class="card">
+      <h3>ManejoFA</h3>
+      <p class="subtitle">Seguimiento enfermero para pacientes con fibrilación auricular</p>
+
+      <ul>
+        <li><strong>Mi tratamiento:</strong> consulta y registro de medicación.</li>
+        <li><strong>Aprender:</strong> enfermedad, anticoagulación y alarmas.</li>
+        <li><strong>Mi seguimiento:</strong> resumen semanal de adherencia.</li>
+        <li><strong>Signos de alarma:</strong> cuándo consultar.</li>
+      </ul>
+
+      <p class="warning">⚠️ Esta app no sustituye la atención sanitaria.</p>
+
+      <div class="cta-group">
+        <button class="btn">Solicitar colaboración</button>
+        <button class="btn secondary">Probar demo</button>
+      </div>
+    </article>
+  </section>
+
+  <!-- GUÍAS -->
+  <section id="guides">
+    <h2>Guías y protocolos</h2>
+    <input type="search" id="guideSearch" placeholder="Buscar guía..." />
+
+    <div id="guidesList" class="grid"></div>
+
+    <p class="legal-note">
+      Material educativo. Ajustar siempre a protocolos locales y normativa del centro.
+    </p>
+  </section>
+
+  <!-- TIENDA -->
+  <section id="store">
+    <h2>Tienda recomendada</h2>
+    <p class="disclaimer">
+      Algunos enlaces son de afiliado. Si compras desde ellos, puedo recibir una comisión sin coste adicional para ti.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Indumentaria sanitaria</h3>
+        <a href="#" class="btn secondary">Ver en Amazon</a>
+      </div>
+      <div class="card">
+        <h3>Material clínico</h3>
+        <a href="#" class="btn secondary">Ver en Amazon</a>
+      </div>
+      <div class="card">
+        <h3>Organización y estudio</h3>
+        <a href="#" class="btn secondary">Ver en Amazon</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contact">
+    <h2>Contacto y colaboraciones</h2>
+
+    <form id="contactForm">
+      <label>
+        Nombre
+        <input type="text" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" required />
+      </label>
+
+      <label>
+        Mensaje
+        <textarea required></textarea>
+      </label>
+
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© El Enfermero Hugo</p>
+  <small>Contenido educativo. No sustituye atención sanitaria.</small>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
