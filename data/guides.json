@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Educación al paciente anticoagulado",
+    "objective": "Mejorar adherencia y seguridad",
+    "audience": "Enfermería",
+    "updated": "2026-02-01"
+  },
+  {
+    "title": "Identificación de signos de alarma",
+    "objective": "Detección precoz de complicaciones",
+    "audience": "Pacientes",
+    "updated": "2026-01-15"
+  },
+  {
+    "title": "Seguimiento no clínico en FA",
+    "objective": "Apoyo educativo y adherencia",
+    "audience": "Educación sanitaria",
+    "updated": "2026-01-20"
+  },
+  {
+    "title": "Seguridad del paciente en domicilio",
+    "objective": "Reducir riesgos comunes",
+    "audience": "Cuidadores",
+    "updated": "2026-02-10"
+  },
+  {
+    "title": "Comunicación clara en salud",
+    "objective": "Mejorar comprensión",
+    "audience": "Profesionales",
+    "updated": "2026-03-01"
+  },
+  {
+    "title": "Uso correcto de DOAC",
+    "objective": "Errores frecuentes",
+    "audience": "Pacientes",
+    "updated": "2026-02-25"
+  },
+  {
+    "title": "Prevención cardiovascular básica",
+    "objective": "Hábitos protectores",
+    "audience": "Población general",
+    "updated": "2026-01-05"
+  },
+  {
+    "title": "Educación tras alta hospitalaria",
+    "objective": "Continuidad de cuidados",
+    "audience": "Enfermería",
+    "updated": "2026-02-18"
+  }
+]
